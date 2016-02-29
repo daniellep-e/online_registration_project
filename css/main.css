@@ -1,6 +1,7 @@
 body {
     align-content: center;
     margin: 0 auto;
+    font-family: 'Lora', serif;
 }
 
 header{
@@ -13,12 +14,19 @@ header{
     padding: 7% 0 7% 0;
 }
 
+
 form {
     padding: 8%;
 }
 
-h1 {
+h1{
     color: #333849;
+}
+
+label {
+    color: #535766;
+    font-weight: lighter;
+    font-size: 1.5em;
 }
 
 .tagline {
@@ -32,10 +40,11 @@ h1 {
     font-size: 1.4em;
 }
 
-#contact-info {
+#contact{
     margin-top: 5px;
     border-top: 3px solid #333849;
     padding-bottom: 5%;
+    background-image: url('img/earth.jpeg');
 }
 
 
@@ -103,17 +112,20 @@ textarea {
     background: #eaeaea;
     border-radius: .5em;
     border: none;
-    margin-bottom: 1.5em;   
+    margin-bottom: 2.5em;   
     margin-top: .8em;
 }
 
-input {
+input[type='text'],
+input[type='email'],
+input[type='telephone']{
     height: 4.5em;
 }
 
 textarea {
     height: 10em;
 }
+
 
 
 
