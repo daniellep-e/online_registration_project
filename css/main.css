@@ -95,9 +95,20 @@ input[placeholder] {
 input,
 textarea {
     background: #eaeaea;
+    border-radius: .5em;
+    border: none;
+}
+
+input {
+    height: 3.5em;
+    margin-bottom: 1.5em;   
+    margin-top: .5em;
 }
 
 
+#zipcode {
+    width: 50%;
+}
 
 /*
 .selcted {
