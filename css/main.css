@@ -53,9 +53,14 @@ h1 {
 }
 
 
-#contact-info input {
+#contact-info input,
+textarea{
     display: block;
     width: 100%;
+}
+
+#contact-info #zipcode {
+    width: 50%;
 }
 
 
@@ -74,7 +79,8 @@ footer {
     font-style: italic;
 }
 
-:focus {
+input:focus,
+textarea:focus {
     border: 1px solid darkblue;
 }
 
@@ -97,18 +103,19 @@ textarea {
     background: #eaeaea;
     border-radius: .5em;
     border: none;
+    margin-bottom: 1.5em;   
+    margin-top: .8em;
 }
 
 input {
-    height: 3.5em;
-    margin-bottom: 1.5em;   
-    margin-top: .5em;
+    height: 4.5em;
+}
+
+textarea {
+    height: 10em;
 }
 
 
-#zipcode {
-    width: 50%;
-}
 
 /*
 .selcted {
