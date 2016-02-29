@@ -82,6 +82,23 @@ footer {
     opacity: 50%;
 }
 
+fieldset {
+    border: none;
+}
+
+input[placeholder] {
+    text-align: right;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+input,
+textarea {
+    background: #eaeaea;
+}
+
+
+
 /*
 .selcted {
     background: lightgrey;
