@@ -2,6 +2,7 @@ body {
     align-content: center;
     margin: 0 auto;
     font-family: 'Lora', serif;
+    line-height: 1.5em;
 }
 
 header{
@@ -77,10 +78,6 @@ textarea{
     border-top: 3px solid #333849;
 }
 
-#radio-buttons {
-    margin-top: 2em;
-}
-
 
 footer {
     color: lightgrey;
@@ -88,10 +85,6 @@ footer {
     font-style: italic;
 }
 
-input:focus,
-textarea:focus {
-    border: 1px solid darkblue;
-}
 
 .btn:hover {
     opacity: 50%;
@@ -107,6 +100,7 @@ input[placeholder] {
     text-transform: capitalize;
 }
 
+/*
 input,
 textarea {
     background: #eaeaea;
@@ -115,18 +109,62 @@ textarea {
     margin-bottom: 2.5em;   
     margin-top: .8em;
 }
+*/
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="telephone"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 20px 4px 10px 0;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid darkblue;
+}
+/*
 
 input[type='text'],
 input[type='email'],
 input[type='telephone']{
     height: 4.5em;
 }
+*/
 
+/*
 textarea {
     height: 10em;
 }
 
-
+input[type='checkbox'],
+input[type='radio'] {
+    margin: 0;
+}
+*/
 
 
 /*
