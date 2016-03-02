@@ -108,12 +108,13 @@ legend {
   font-weight: bold;
 }
 
-input[placeholder] {
+input[placeholder],
+select[placeholder],
+option[default]{
     text-align: right;
     font-style: italic;
     text-transform: capitalize;
 }
-
 
 input[type="text"],
 input[type="password"],
@@ -152,12 +153,6 @@ textarea:focus {
     border: 1px solid darkblue;
 }
 
-/*
-.selcted {
-    background: lightgrey;
-    border: 2px solid darkblue;
-}
-*/
 
 @media screen and (min-width: 480px) {
 
