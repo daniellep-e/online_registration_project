@@ -48,6 +48,10 @@ label {
     font-size: 1.4em;
 }
 
+.tagline h1 {
+    line-height: 1em;
+}
+
 #contact{
     margin-top: 5px;
     border-top: 3px solid #333849;
