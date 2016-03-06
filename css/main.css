@@ -178,7 +178,7 @@ input[type="checkbox"]:checked + label {
     font-weight: bold;
 }
 
-input:required {
+.required {
     border:1px solid #999;
 }
 
@@ -187,6 +187,10 @@ select:focus,
 textarea:focus {
     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
     border: 1px solid darkblue;
+}
+
+input:active {
+    border: 3px solid goldenrod;
 }
 
 /******Media Queries****/
@@ -206,7 +210,7 @@ textarea:focus {
 
 @media screen and (min-width: 760px) {
     form{
-        max-width: 65%;
+        max-width: 70%;
     }    
     
     #contact label{
