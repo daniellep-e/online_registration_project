@@ -138,9 +138,7 @@ legend {
 }
 
 
-input[placeholder],
-select[placeholder],
-option[default]{
+input[placeholder] {
     text-align: right;
     font-style: italic;
 }
@@ -176,6 +174,10 @@ input[type="checkbox"] {
   margin: 20px 4px 10px 0;
 }
 
+input[type="checkbox"]:checked + label {
+    font-weight: bold;
+}
+
 input:required {
     border:1px solid #999;
 }
@@ -206,9 +208,12 @@ textarea:focus {
 @media screen and (min-width: 760px) {
     form{
         max-width: 60%;
-    }
-    
-    #contact label{
+    }    
+}
+
+
+@media screen and (min-width: 1020px) {
+   #contact label{
         width: 30%;
         float: left;
     }
