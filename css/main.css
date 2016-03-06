@@ -207,6 +207,15 @@ textarea:focus {
     form{
         max-width: 60%;
     }
-   
+    
+    #contact label{
+        width: 30%;
+        float: left;
+    }
+    
+   #contact input, 
+    select {
+        width: 70%;
+    }
     
 }
