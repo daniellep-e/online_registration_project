@@ -189,8 +189,13 @@ textarea:focus {
     border: 1px solid darkblue;
 }
 
-input:active {
-    border: 3px solid goldenrod;
+#contact input{ 
+    -webkit-filter:grayscale(1) blur(2px); 
+}
+
+#contact input:hover,
+#contact input:focus{
+    -webkit-filter:grayscale(0) blur(0);
 }
 
 /******Media Queries****/
