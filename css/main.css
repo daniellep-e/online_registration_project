@@ -197,6 +197,7 @@ textarea:focus {
     -webkit-filter:grayscale(0) blur(0);
 }
 
+/****Custom Select Arrow****/
 select {
 background-image:
     linear-gradient(45deg, transparent 50%, gray 50%),
